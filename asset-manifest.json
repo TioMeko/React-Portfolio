@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio/static/css/main.606cbdfa.css",
+    "main.js": "/React-Portfolio/static/js/main.e20dd3e2.js",
+    "static/media/dejaBrew.png": "/React-Portfolio/static/media/dejaBrew.526f01352fa4006dbc54.png",
+    "static/media/Profile.png": "/React-Portfolio/static/media/Profile.5fabd1f65bf928d770a9.png",
+    "static/media/totoroBank.png": "/React-Portfolio/static/media/totoroBank.9935312eba0c54c28745.png",
+    "static/media/workDayScheduler.png": "/React-Portfolio/static/media/workDayScheduler.3b32942b45cb6943cc10.png",
+    "index.html": "/React-Portfolio/index.html",
+    "main.606cbdfa.css.map": "/React-Portfolio/static/css/main.606cbdfa.css.map",
+    "main.e20dd3e2.js.map": "/React-Portfolio/static/js/main.e20dd3e2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.606cbdfa.css",
+    "static/js/main.e20dd3e2.js"
+  ]
+}
