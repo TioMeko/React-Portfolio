@@ -1,11 +1,11 @@
 
 :root {
     --background-color: #2a3b49;
-    --primary-color: #f1f1f1;
+    --primary-color: #f1f1f1cc;
     --secondary-color: #3d505e;
-    --accent-color: #657988;
+    --accent-color: #97b5cd;
     --dark-color: #1c262b;
-    --button-color: #007bff;
+    --button-color: #007bff8e;
     --section-color: #3d4d5a;
   }
   
@@ -163,7 +163,7 @@
     font-size: 1.2rem;
     margin-bottom: 1rem;
     margin: .5rem 1rem;
-    color: #181818;
+    color: #ffffff9f;
   }
   
   #skills li i {
@@ -270,6 +270,7 @@
   #portfolio h2 {
     margin-bottom: 2rem;
     text-align: center;
+    color: #ffffffb3;
   }
 
   .portfolio-wrapper {
@@ -304,6 +305,10 @@
     background-color: var(--section-color);
   }
 
+  .card-text {
+    color: rgba(255, 255, 255, 0.722);
+  }
+
   .card h2{
     color: var(--accent-color);
   }
@@ -333,6 +338,10 @@
   .card {
     max-width: 30rem;
     margin: 0 auto;
+  }
+
+  .card-title {
+    color: var(--accent-color);
   }
   
   .card-img-top {
