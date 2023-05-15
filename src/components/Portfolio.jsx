@@ -7,11 +7,17 @@ import '../styles/styles.css';
 const Portfolio = () => {
   const projects = [
     {
+      title: 'Doggy Dojo',
+      description: "Doggy Dojo is MERN-stack single-page web application (PWA) that allows dog owners and trainers to track the progress of their dogs' training regimen.",
+      image: Images.tBank,
+      link: 'https://murmuring-escarpment-43025.herokuapp.com/login',
+      featured: true,
+    },
+    {
       title: 'TotoroBank',
       description: 'This project was created to simulate a bank website that appeals to the younger demographic, and provides a user friendly interface with ease of use that is both fun and easily navigable. Users can either log in or create an account and when logged in, users can view their balance, deposits, and withdrawals. This application features dynamic HTML and CSS powered by JavaScript.',
       image: Images.tBank,
       link: 'https://murmuring-escarpment-43025.herokuapp.com/login',
-      featured: true,
     },
     {
       title: 'Déjà Brew',
