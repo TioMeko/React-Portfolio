@@ -2,22 +2,24 @@ import React from 'react';
 import PortfolioItem from './PortfolioItem';
 import PortfolioItemFeatured from './PortfolioItemFeatured';
 import Images from './Images';
+import BackendVideo from '../videos/Backend_Staff.webm';
+import eCommerce from '../videos/E-Commerce_Backend.mp4'
 import '../styles/styles.css';
 
 const Portfolio = () => {
   const projects = [
     {
-      title: 'Doggy Dojo',
-      description: "Doggy Dojo is MERN-stack single-page web application (PWA) that allows dog owners and trainers to track the progress of their dogs' training regimen.",
+      title: 'TotoroBank',
+      description: 'This project was created to simulate a bank website that appeals to the younger demographic, and provides a user friendly interface with ease of use that is both fun and easily navigable. Users can either log in or create an account and when logged in, users can view their balance, deposits, and withdrawals. This application features dynamic HTML and CSS powered by JavaScript.',
       image: Images.tBank,
       link: 'https://murmuring-escarpment-43025.herokuapp.com/login',
       featured: true,
     },
     {
-      title: 'TotoroBank',
-      description: 'This project was created to simulate a bank website that appeals to the younger demographic, and provides a user friendly interface with ease of use that is both fun and easily navigable. Users can either log in or create an account and when logged in, users can view their balance, deposits, and withdrawals. This application features dynamic HTML and CSS powered by JavaScript.',
-      image: Images.tBank,
-      link: 'https://murmuring-escarpment-43025.herokuapp.com/login',
+      title: 'The Tech Edge',
+      description: 'This is a tech blog website built using the Model-View-Controller (MVC) architectural pattern. This pattern separates the application into three interconnected parts: the model, the view, and the controller. The model represents the data and the business logic of the application. In this tech blog, the model handles the database interactions, such as creating, reading, updating, and deleting blog posts and user data.',
+      image: eCommerce,
+      link: 'https://thetechedge-f506d3011f09.herokuapp.com/',
     },
     {
       title: 'Déjà Brew',
@@ -26,18 +28,14 @@ const Portfolio = () => {
       link: 'https://tiomeko.github.io/deja-brew/',
     },
     {
-      title: 'Work Day Scheduler',
-      description: 'The work day scheduler allows anyone to keep track of their tasks on a day to day basis by having the ability to place their tasks in the appropriate time slot.',
-      image: Images.wDay,
-      link: 'https://tiomeko.github.io/work-day-scheduler/',
-    },
-    {
-      title: 'Artstation',
-      description: 'Come check out the adventure that is art!',
-      image: Images.pFrog,
-      link: 'https://www.artstation.com/tiomeko',
+      title: 'Backend-Staff',
+      description: "Backend-Staff is a command-line application built with Node.js, Inquirer, and MySQL. It provides a convenient way to manage a company's employee database",
+      image: BackendVideo,
+      link: 'https://github.com/TioMeko/Backend-Staff',
     },
   ];
+
+  console.log(projects[3].image)
 
   return (
     <div className="portfolio" id="portfolio">
