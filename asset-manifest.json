@@ -1,17 +1,20 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.d79a30fe.css",
-    "main.js": "/React-Portfolio/static/js/main.e20dd3e2.js",
+    "main.js": "/React-Portfolio/static/js/main.32e134a2.js",
+    "static/media/Backend_Staff.webm": "/React-Portfolio/static/media/Backend_Staff.94e001f580725b103d56.webm",
+    "static/media/E-Commerce_Backend.mp4": "/React-Portfolio/static/media/E-Commerce_Backend.0114e76095f296dd1d60.mp4",
     "static/media/dejaBrew.png": "/React-Portfolio/static/media/dejaBrew.526f01352fa4006dbc54.png",
     "static/media/Profile.png": "/React-Portfolio/static/media/Profile.5fabd1f65bf928d770a9.png",
     "static/media/totoroBank.png": "/React-Portfolio/static/media/totoroBank.9935312eba0c54c28745.png",
+    "static/media/doggyDojo.jpg": "/React-Portfolio/static/media/doggyDojo.7f9579685bd6b23010a3.jpg",
     "static/media/workDayScheduler.png": "/React-Portfolio/static/media/workDayScheduler.3b32942b45cb6943cc10.png",
     "index.html": "/React-Portfolio/index.html",
     "main.d79a30fe.css.map": "/React-Portfolio/static/css/main.d79a30fe.css.map",
-    "main.e20dd3e2.js.map": "/React-Portfolio/static/js/main.e20dd3e2.js.map"
+    "main.32e134a2.js.map": "/React-Portfolio/static/js/main.32e134a2.js.map"
   },
   "entrypoints": [
     "static/css/main.d79a30fe.css",
-    "static/js/main.e20dd3e2.js"
+    "static/js/main.32e134a2.js"
   ]
 }
