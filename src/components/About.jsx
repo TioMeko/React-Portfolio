@@ -15,9 +15,9 @@ const About = () => {
           <div className="text-content">
             <h2>Hello</h2>
             <p>
-              I'm an aspiring developer / 2D-3D artist based in Connecticut.
-              I have a passion for web design and art which leads
-              me to create beautiful designs.
+            I am an aspiring backend developer who enjoys the challenge of building 
+            robust systems behind the scenes, and I find joy in exploring the creative 
+            possibilities of game development with Unity and UE5 game engines.
             </p>
           </div>
         </div>
